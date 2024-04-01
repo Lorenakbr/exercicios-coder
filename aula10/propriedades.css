@@ -1,0 +1,22 @@
+header{
+    background-image: url("https://i.pinimg.com/736x/bb/16/5c/bb165c8fcecf107962691450d7505dd3.jpg");
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+}
+h1{
+    color: #e0b0ff;
+    
+} 
+ul{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+p{
+    font-style: italic;
+    font-weight: bold;
+    font-size: 1rem;
+    font-family:monospace;
+}
