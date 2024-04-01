@@ -1,0 +1,12 @@
+.secao{
+    background-color: red;
+}
+.secao--azul{
+    background-color: aqua;
+}
+.secao__titulo{
+    color: aliceblue;
+}
+.secao__titulo--italico{
+    font-style: italic;
+}

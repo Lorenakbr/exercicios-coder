@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}.divVazia{
+    background-color:red;
+    height: 100px;
+    margin: 20x 50px;
+
+}
+.divPrincipal{
+    background-color:green;
+    height: 80px;
+    overflow: hidden;
+     
+}
+button{
+    width: 64px;
+    height: 32px;
+}
