@@ -1,0 +1,27 @@
+h1{
+    color:blueviolet;
+    background-color:aquamarine;
+}
+
+p {
+    color: blueviolet;
+    background-color: aquamarine;
+}
+main{
+    color: blueviolet;
+    
+}
+
+main div h2{
+    color: cornflowerblue;
+}
+.textoVermelho {
+    color: red;
+}
+.textoGrande{
+    font-size: 36px;
+}
+#textoPrincipal{
+    color:blueviolet;
+    background-color: black;
+}
