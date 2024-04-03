@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+section{
+    width: fit-content;
+    margin: auto;
+    margin-bottom: 50px;
+}
+div{
+    
+    width: 200px;
+    height: 200px;
+    background-color: rgb(117, 117, 237);
+    border: solid 5px blue;
+    
+}
+.sectionRelative__div2{
+    background-color: rgb(248, 137, 137);
+    border: solid 5px red;
+    position: relative;
+    top: 20px;
+    left: 20px;
+}
+.sectionAbsolute{
+    background-color: green;
+    position: relative;
+    
+}
+
+.sectionAbsolute__div2{
+    background-color: yellow;
+    border: solid 5px pink;
+
+    position: absolute;
+    top: 20;
+    left: 20;
+
+
+}
+
+.sectionFixed__div2{
+    background-color: rgb(105, 174, 105);
+    border-color: green;
+
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+}
+.sectionStick__div2{
+    display: block;
+    background-color: pink;
+    border-color: rgb(171, 12, 38);
+
+    position: sticky;
+    top: 50px;
+
+}
