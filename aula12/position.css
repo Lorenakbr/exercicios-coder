@@ -56,3 +56,15 @@ div{
     top: 50px;
 
 }
+.sectionZIndex__div1{
+    background-color: rgb(175, 38, 182);
+    border-color: aqua;
+
+    position: absolute;
+    z-index: 20;
+}
+.sectionZIndex__div2{
+     position: absolute;
+     z-index: 10;
+       
+}
