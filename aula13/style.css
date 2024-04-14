@@ -1,0 +1,64 @@
+div{
+    background-color: pink;
+}
+div:hover{
+    background-color: yellow;
+    color:red
+}
+a:hover{
+    text-decoration: underline;
+    color:green
+     
+}
+a{
+    text-decoration: none;
+}
+a:active{
+    color: yellow
+}
+a:visited{
+    color: red;
+}
+
+input:focus{
+    background-color: yellow;
+}
+
+li:first-child{
+   color: blue;
+}
+li:last-child{
+  color: blue;
+}
+li:nth-child(3){
+    color: red;
+}
+li:nth-child(2n){
+    background-color: gray;
+}
+li:not(#item-diferente){
+    font-size: 12px;
+
+}
+input[type="radio"]:checked{
+    margin-left: 24px;
+}
+
+input[type="checkbox"]:checked{
+    margin-left: 42px;
+}
+button{
+   cursor: pointer;
+}
+button:disabled{
+   cursor: not-allowed;
+}
+input[type="email"]:invalid{
+    background-color: red;
+}
+input[type="email"]:valid{
+    background-color: rgb(150, 221, 150);
+}
+input:required{
+    background-color: orange;
+}
